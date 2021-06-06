@@ -17,7 +17,7 @@ var ChainId;
 
 (function (ChainId) {
   ChainId[ChainId["MAINNET"] = 97] = "MAINNET";
-  ChainId[ChainId["COSTON"] = 16] = "COSTON";
+  ChainId[ChainId["BSCTESTNET"] = 16] = "BSCTESTNET";
 })(ChainId || (ChainId = {}));
 
 var TradeType;
@@ -432,7 +432,7 @@ function currencyEquals(currencyA, currencyB) {
     return currencyA === currencyB;
   }
 }
-var WETH = (_WETH = {}, _WETH[ChainId.MAINNET] = /*#__PURE__*/new Token(ChainId.MAINNET, '0x48925b156EFed39dA465c6cb5E2f9D9A93a02309', 18, 'FLR', 'Wrapped Flare'), _WETH[ChainId.COSTON] = /*#__PURE__*/new Token(ChainId.COSTON, '0x48925b156EFed39dA465c6cb5E2f9D9A93a02309', 18, 'WCFLR', 'Wrapped CFLR'), _WETH);
+var WETH = (_WETH = {}, _WETH[ChainId.MAINNET] = /*#__PURE__*/new Token(ChainId.MAINNET, '0x48925b156EFed39dA465c6cb5E2f9D9A93a02309', 18, 'FLR', 'Wrapped Flare'), _WETH[ChainId.BSCTESTNET] = /*#__PURE__*/new Token(ChainId.BSCTESTNET, '0x48925b156EFed39dA465c6cb5E2f9D9A93a02309', 18, 'WCFLR', 'Wrapped CFLR'), _WETH);
 
 var _toSignificantRoundin, _toFixedRounding;
 var Decimal = /*#__PURE__*/toFormat(_Decimal);

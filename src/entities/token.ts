@@ -64,8 +64,8 @@ export const WETH = {
     'FLR',
     'Wrapped Flare'
   ),
-  [ChainId.COSTON]: new Token(
-    ChainId.COSTON,
+  [ChainId.BSCTESTNET]: new Token(
+    ChainId.BSCTESTNET,
     '0x48925b156EFed39dA465c6cb5E2f9D9A93a02309',
     18,
     'WCFLR',
